@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+header h6{
+    font-family: sans-serif;
+    color: orange;
+    font-size: 30px;
+}
+.so{
+    font-weight:lighter;
+}
+.verified{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-style: italic;
+}
+.verified img{
+    width: 20px;
+
+}
+select {
+    color: orange;
+    border-radius: 100px;
+    padding: 5px;
+    border: solid 1px orange;
+}
