@@ -5,24 +5,26 @@ import massage from './assets/png-clipart-speech-balloon-computer-icons-icones-a
 import accont from './assets/501-5010656_my-account-comments-my-account-icon-vector.png'
 const Sidebar =() => {
     return(
-        <div className="container">
-            <div className=" index home">
-                <img src={home} alt="Home" />
-                <p>home</p>
+        <>
+            <div className="container">
+                <div className=" index home">
+                    <img src={home} alt="Home" />
+                    <p>home</p>
+                </div>
+                <div className="index notification">
+                    <img src={notification} alt="notfication" />
+                    <p>Notfication</p>
+                </div>
+                <div className="index massages">
+                    <img src={massage} alt="Massages" />
+                    <p>Massages</p>
+                </div>
+                <div className="index profile">
+                    <img src={accont} alt="Profile" />
+                    <p>Profile</p>
+                </div>
             </div>
-            <div className="index notification">
-                <img src={notification} alt="notfication" />
-                <p>Notfication</p>
-            </div>
-            <div className="index massages">
-                <img src={massage} alt="Massages" />
-                <p>Massages</p>
-            </div>
-            <div className="index profile">
-                <img src={accont} alt="Profile" />
-                <p>Profile</p>
-            </div>
-        </div>
+        </>
     )
 }
 export default Sidebar
