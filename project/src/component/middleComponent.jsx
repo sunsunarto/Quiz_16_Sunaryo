@@ -5,7 +5,7 @@ const MiddleComponent = () => {
         <body>
             <div className="logo">
                 <img src={logoK} alt="" />
-                <textarea cols={50}> what happend today?</textarea>
+                <textarea cols={50} rows={2} placeholder=' what happened today？'></textarea>
             </div>
         </body>
     )

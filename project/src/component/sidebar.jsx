@@ -1,9 +1,13 @@
+import { useState } from 'react'
 import './styleSidebar.css'
 import home from './assets/WhatsApp_Image_2024-11-14_at_13.38.52_d9a7216f-removebg-preview.png'
 import notification from './assets/app-indicator.svg'
 import massage from './assets/png-clipart-speech-balloon-computer-icons-icones-angle-text-removebg-preview.png'
 import accont from './assets/501-5010656_my-account-comments-my-account-icon-vector.png'
 const Sidebar =() => {
+    function limitWords () {
+        const [max, setMax] = useState(false)
+    }
     return(
         <>
             <div className="container">

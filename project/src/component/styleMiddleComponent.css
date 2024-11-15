@@ -1,11 +1,13 @@
 .logo{
-    display: flex;
-    justify-content: center;
-    align-items: end;
     position: relative;
     top: -10em;
-    left: -18em;
+    width: 85%;
+    float: right;
 }
 .logo img{
-    width: 40px;
+    width: 100px;
+}
+textarea{
+    resize: none;
+    border: none;
 }
