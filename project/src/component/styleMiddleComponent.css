@@ -1,13 +1,6 @@
-.logo{
+.mainContaner{
     position: relative;
-    top: -10em;
+    top: -7em;
     width: 85%;
     float: right;
-}
-.logo img{
-    width: 100px;
-}
-textarea{
-    resize: none;
-    border: none;
 }

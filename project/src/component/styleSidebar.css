@@ -12,7 +12,9 @@
     gap: 10px;
     align-items: center;
     width: 200px ;
+    font-family: sans-serif;
+    
 }
 .index img{
-    width: 30px;
+    width: 40px;
 }
