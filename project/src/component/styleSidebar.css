@@ -18,3 +18,10 @@
 .index img{
     width: 40px;
 }
+.buttonShare button{
+    padding: 5px;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    border: none;
+}
