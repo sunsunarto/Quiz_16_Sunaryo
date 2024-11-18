@@ -24,7 +24,11 @@ const TopMiddleComponent = () => {
         setHistory([...history, newHistoryEntry]);
         setText('');
     }
-
+    const handleKeyPress = (event) => {
+        if (event.key === 'Enter') {
+            handleShare();
+        }
+    }
     return (
         <div className="topMiddlecontainer">
             <div className="logoAndtextarea">

@@ -23,6 +23,9 @@ const Sidebar =() => {
                     <img src={accont} alt="Profile" />
                     <p>Profile</p>
                 </div>
+                <div className=" index trendings">
+                    <p>Trending</p>
+                </div>
             </div>
         </>
     )
